@@ -4,10 +4,7 @@ META.json
 META.yml
 Makefile.PL
 bin/iops
-bin/iops~
 dist.ini
-dist.ini~
 lib/App/Iops.pm
-lib/App/Iops.pm~
 t/release-pod-coverage.t
 t/release-pod-syntax.t
