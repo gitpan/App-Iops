@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 use App::Iops;
-App::Iops->new->run( @ARGV );
+App::Iops->new( @ARGV )->run;
 exit;
 
 __END__
@@ -12,7 +12,7 @@ iops - Show process I/O operations
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 SYNOPSIS
 
