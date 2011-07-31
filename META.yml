@@ -15,4 +15,4 @@ resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=App-Iops
   homepage: http://search.cpan.org/dist/App-Iops
   repository: git://github.com/jbenjore/App-Iops.git
-version: 0.003
+version: 0.004
