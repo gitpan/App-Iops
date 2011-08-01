@@ -12,14 +12,22 @@ iops - Show process I/O operations
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 SYNOPSIS
 
-  iops <pid>
+  iops [options]
 
+      --pid [pid]
       --help
 
 =head1 DESCRIPTION
 
 Summarize a process's I/O operations in real time.
+
+Attach to an existing process:
+
+  $ iops -p 3251
+  read /dev/random...............................
+  write /var/log/message..
+  close /dev/random

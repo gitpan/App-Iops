@@ -1,6 +1,6 @@
 package App::Iops;
 BEGIN {
-  $App::Iops::VERSION = '0.004';
+  $App::Iops::VERSION = '0.005';
 }
 
 =head1 NAME
@@ -9,7 +9,7 @@ App::Iops - Show process I/O operations
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 SYNOPSIS
 
@@ -59,6 +59,16 @@ Associates a process id to attach to.
 =head2 run
 
 Actually executes whatever action was requested.
+
+=head1 THANKS TO
+
+Thanks to the following people:
+
+=over
+
+=item Alan Haggai Alavi
+
+=back
 
 =cut
 
