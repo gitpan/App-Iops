@@ -1,6 +1,6 @@
 package App::Iops;
 BEGIN {
-  $App::Iops::VERSION = '0.005';
+  $App::Iops::VERSION = '0.006';
 }
 
 =head1 NAME
@@ -9,7 +9,7 @@ App::Iops - Show process I/O operations
 
 =head1 VERSION
 
-version 0.005
+version 0.006
 
 =head1 SYNOPSIS
 
